@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D2A5F1FF1F4A9144005CD714"
                BuildableName = "Grados.app"
-               BlueprintName = "MVVMFromMVC"
-               ReferencedContainer = "container:MVVMFromMVC.xcodeproj">
+               BlueprintName = "WeatherForecast"
+               ReferencedContainer = "container:WeatherForecast.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3853FB77237B8D1D00835B42"
-               BuildableName = "MVVMFromMVCTests.xctest"
-               BlueprintName = "MVVMFromMVCTests"
-               ReferencedContainer = "container:MVVMFromMVC.xcodeproj">
+               BuildableName = "WeatherForecastTests.xctest"
+               BlueprintName = "WeatherForecastTests"
+               ReferencedContainer = "container:WeatherForecast.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -56,8 +56,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2A5F1FF1F4A9144005CD714"
             BuildableName = "Grados.app"
-            BlueprintName = "MVVMFromMVC"
-            ReferencedContainer = "container:MVVMFromMVC.xcodeproj">
+            BlueprintName = "WeatherForecast"
+            ReferencedContainer = "container:WeatherForecast.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -73,8 +73,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2A5F1FF1F4A9144005CD714"
             BuildableName = "Grados.app"
-            BlueprintName = "MVVMFromMVC"
-            ReferencedContainer = "container:MVVMFromMVC.xcodeproj">
+            BlueprintName = "WeatherForecast"
+            ReferencedContainer = "container:WeatherForecast.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		38159E9724352DD000819474 /* WeatherbitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherbitData.swift; sourceTree = "<group>"; };
 		38159E9924352E8300819474 /* WeatherbitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherbitService.swift; sourceTree = "<group>"; };
-		3853FB78237B8D1D00835B42 /* MVVMFromMVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMFromMVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3853FB78237B8D1D00835B42 /* WeatherForecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherForecastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3853FB7A237B8D1D00835B42 /* WeatherbitDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherbitDataTests.swift; sourceTree = "<group>"; };
 		3853FB7C237B8D1D00835B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3853FB87237B9C0100835B42 /* WeatherbitExample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WeatherbitExample.json; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 		D2A5F1F71F4A9143005CD714 = {
 			isa = PBXGroup;
 			children = (
-				D2A5F2021F4A9144005CD714 /* MVVMFromMVC */,
+				D2A5F2021F4A9144005CD714 /* WeatherForecast */,
 				3853FB79237B8D1D00835B42 /* MVVMFromMVCTests */,
 				D2A5F2011F4A9144005CD714 /* Products */,
 			);
@@ -152,12 +152,12 @@
 			isa = PBXGroup;
 			children = (
 				D2A5F2001F4A9144005CD714 /* Grados.app */,
-				3853FB78237B8D1D00835B42 /* MVVMFromMVCTests.xctest */,
+				3853FB78237B8D1D00835B42 /* WeatherForecastTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2A5F2021F4A9144005CD714 /* MVVMFromMVC */ = {
+		D2A5F2021F4A9144005CD714 /* WeatherForecast */ = {
 			isa = PBXGroup;
 			children = (
 				D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */,
@@ -170,15 +170,15 @@
 				6351BBCE23AE8A6A00B7C4DF /* Utilities */,
 				6351BBCF23AE8A7000B7C4DF /* View Models */,
 			);
-			path = MVVMFromMVC;
+			path = WeatherForecast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3853FB77237B8D1D00835B42 /* MVVMFromMVCTests */ = {
+		3853FB77237B8D1D00835B42 /* WeatherForecastTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3853FB7F237B8D1D00835B42 /* Build configuration list for PBXNativeTarget "MVVMFromMVCTests" */;
+			buildConfigurationList = 3853FB7F237B8D1D00835B42 /* Build configuration list for PBXNativeTarget "WeatherForecastTests" */;
 			buildPhases = (
 				3853FB74237B8D1D00835B42 /* Sources */,
 				3853FB75237B8D1D00835B42 /* Frameworks */,
@@ -189,14 +189,14 @@
 			dependencies = (
 				3853FB7E237B8D1D00835B42 /* PBXTargetDependency */,
 			);
-			name = MVVMFromMVCTests;
+			name = WeatherForecastTests;
 			productName = MVVMFromGroundUpTests;
-			productReference = 3853FB78237B8D1D00835B42 /* MVVMFromMVCTests.xctest */;
+			productReference = 3853FB78237B8D1D00835B42 /* WeatherForecastTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D2A5F1FF1F4A9144005CD714 /* MVVMFromMVC */ = {
+		D2A5F1FF1F4A9144005CD714 /* WeatherForecast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2A5F2121F4A9144005CD714 /* Build configuration list for PBXNativeTarget "MVVMFromMVC" */;
+			buildConfigurationList = D2A5F2121F4A9144005CD714 /* Build configuration list for PBXNativeTarget "WeatherForecast" */;
 			buildPhases = (
 				D2A5F1FC1F4A9144005CD714 /* Sources */,
 				D2A5F1FD1F4A9144005CD714 /* Frameworks */,
@@ -206,7 +206,7 @@
 			);
 			dependencies = (
 			);
-			name = MVVMFromMVC;
+			name = WeatherForecast;
 			productName = MyRWTutorial;
 			productReference = D2A5F2001F4A9144005CD714 /* Grados.app */;
 			productType = "com.apple.product-type.application";
@@ -231,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D2A5F1FB1F4A9143005CD714 /* Build configuration list for PBXProject "MVVMFromMVC" */;
+			buildConfigurationList = D2A5F1FB1F4A9143005CD714 /* Build configuration list for PBXProject "WeatherForecast" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -244,8 +244,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2A5F1FF1F4A9144005CD714 /* MVVMFromMVC */,
-				3853FB77237B8D1D00835B42 /* MVVMFromMVCTests */,
+				D2A5F1FF1F4A9144005CD714 /* WeatherForecast */,
+				3853FB77237B8D1D00835B42 /* WeatherForecastTests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,7 +302,7 @@
 /* Begin PBXTargetDependency section */
 		3853FB7E237B8D1D00835B42 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2A5F1FF1F4A9144005CD714 /* MVVMFromMVC */;
+			target = D2A5F1FF1F4A9144005CD714 /* WeatherForecast */;
 			targetProxy = 3853FB7D237B8D1D00835B42 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -528,7 +528,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3853FB7F237B8D1D00835B42 /* Build configuration list for PBXNativeTarget "MVVMFromMVCTests" */ = {
+		3853FB7F237B8D1D00835B42 /* Build configuration list for PBXNativeTarget "WeatherForecastTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3853FB80237B8D1D00835B42 /* Debug */,
@@ -537,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2A5F1FB1F4A9143005CD714 /* Build configuration list for PBXProject "MVVMFromMVC" */ = {
+		D2A5F1FB1F4A9143005CD714 /* Build configuration list for PBXProject "WeatherForecast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2A5F2101F4A9144005CD714 /* Debug */,
@@ -546,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2A5F2121F4A9144005CD714 /* Build configuration list for PBXNativeTarget "MVVMFromMVC" */ = {
+		D2A5F2121F4A9144005CD714 /* Build configuration list for PBXNativeTarget "WeatherForecast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2A5F2131F4A9144005CD714 /* Debug */,
